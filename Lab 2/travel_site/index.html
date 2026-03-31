@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel Page</title>
+
+    <link rel="stylesheet" href="../bootstrap-5.3.5-dist/css/bootstrap.css">
+    <script src="../bootstrap-5.3.5-dist/js/bootstrap.js"></script>
+
+    <style>
+        #banner {
+            background-image:
+                    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                    url("/travel_site/images/banner.jpg");
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg">
+    <div class="container align-items-center">
+        <h4 class="fw-bold mb-0">Wander MK</h4>
+
+        <!--Hamburger menu-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto mb-0">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Tours</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Comments</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--Banner-->
+<div id="banner">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-6 my-auto">
+                <h1 class="fs-1 fw-bold text-white">Your Next Adventure <br/> Starts Here</h1>
+                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, provident, repellendus. Consequuntur dolorem earum esse et ipsam maxime</p>
+                <div class="d-flex gap-4">
+                    <a class="btn w-25 bg-white fw-bold" href="#">Explore Tours</a>
+                    <a class="btn w-25 bg-transparent text-white fw-bold border border-white" href="#">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="col-6 position-relative shadow-lg">
+                <img class="img-fluid rounded shadow-lg" src="/travel_site/images/cover-image.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Tour Cards-->
+<div class="container p-5">
+    <div class="container mb-4">
+        <h2 class="text-center fw-bold">Our Tours</h2>
+        <div class="mx-auto mt-4" style="width: 60px; height: 5px; background-color: saddlebrown;"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card border shadow-sm">
+                <img class="card-img-top" src="/travel_site/images/card-img.jpg">
+
+                <div class="card-body">
+                    <h4 class="fw-bold">Greece - Santorini</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut cumque ex iure perferendis ratione vero?</p>
+                    <p class="fw-bold text-warning m-0">from 450$/person</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border shadow-sm">
+                <img class="card-img-top" src="/travel_site/images/card-img.jpg">
+
+                <div class="card-body">
+                    <h4 class="fw-bold">Greece - Santorini</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut cumque ex iure perferendis ratione vero?</p>
+                    <p class="fw-bold text-warning m-0">from 450$/person</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border shadow-sm">
+                <img class="card-img-top" src="/travel_site/images/card-img.jpg">
+
+                <div class="card-body">
+                    <h4 class="fw-bold">Greece - Santorini</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut cumque ex iure perferendis ratione vero?</p>
+                    <p class="fw-bold text-warning m-0">from 450$/person</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Testimonies-->
+<div class="mt-5 p-5 bg-secondary">
+    <div class="container p-3">
+        <div class="container mb-4">
+            <h2 class="text-center fw-bold">What Travelers Say</h2>
+            <div class="mx-auto mt-4" style="width: 60px; height: 5px; background-color: saddlebrown;"></div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-4">
+                <div class="d-flex mb-3 align-items-center gap-3 ">
+                    <div style="width: 8px; height: 60px; background-color: saddlebrown;"></div>
+                    <p class="fst-italic mb-1 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut cumque ex iure perferendis ratione vero?</p>
+                </div>
+                <strong>-Marija Kostoska</strong>
+            </div>
+            <div class="col-md-8 col-lg-4">
+                <div class="d-flex mb-3 align-items-center gap-3 ">
+                    <div style="width: 8px; height: 60px; background-color: saddlebrown;"></div>
+                    <p class="fst-italic mb-1 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut cumque ex iure perferendis ratione vero?</p>
+                </div>
+                <strong>-Marija Kostoska</strong>
+            </div>
+            <div class="col-md-8 col-lg-4">
+                <div class="d-flex mb-3 align-items-center gap-3 ">
+                    <div style="width: 8px; height: 60px; background-color: saddlebrown;"></div>
+                    <p class="fst-italic mb-1 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut cumque ex iure perferendis ratione vero?</p>
+                </div>
+                <strong>-Marija Kostoska</strong>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Form-->
+<div class="container mt-5 mb-5">
+    <div class="container mb-4">
+        <h2 class="text-center fw-bold">Contact Us</h2>
+        <div class="mx-auto mt-4" style="width: 60px; height: 5px; background-color: saddlebrown;"></div>
+    </div>
+
+    <div class="container mb-4">
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <label class="fw-bold mb-2" for="name-on-card">Full Name:</label>
+                <input class="form-control" id="name-on-card" type="text" placeholder="Your Name">
+            </div>
+
+            <div class="col-md-6">
+                <label class="fw-bold mb-2" for="email">Email:</label>
+                <input class="form-control" id="email" type="text" placeholder="Email Address">
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <label class="fw-bold mb-2" for="phone-number">Phone Number:</label>
+                <input class="form-control" id="phone-number" type="text" placeholder="+389 000 000 000">
+            </div>
+
+            <div class="col-md-6">
+                <label class="fw-bold mb-2" for="destination">Destination:</label>
+<!--                <input class="form-control" id="destination" type="text" placeholder="Destination">-->
+                <select class="form-select" id="destination" type="text">
+                    <option>Select destination</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <label class="fw-bold mb-2" for="message">Destination:</label>
+
+                <textarea class="form-control" id="message" type="textarea" placeholder="Your message..."></textarea>
+            </div>
+        </div>
+
+        <a class="btn mt-3 bg-warning fw-bold text-white" href="#" style="width: 100px;">Send</a>
+    </div>
+</div>
+
+<!--Footer-->
+<footer class="container-fluid p-5 text-white bg-secondary">
+    <div class="row mt-3 justify-content-center">
+        <div class="col-md-5">
+            <h4 class="fw-bold">WanderMK</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, commodi et, illo incidunt natus quasi quibusdam quo sequi sint soluta sunt tempora unde</p>
+        </div>
+
+        <div class="col-md-4">
+            <h3 class="fw-bold">Quick Links</h3>
+            <ul class="list-unstyled">
+                <li class="nav-item"><a class="text-white text-decoration-none" href="#">Home</a></li>
+                <li class="nav-item"><a class="text-white text-decoration-none" href="#">Tours</a></li>
+                <li class="nav-item"><a class="text-white text-decoration-none" href="#">Comments</a></li>
+                <li class="nav-item"><a class="text-white text-decoration-none" href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-3">
+            <h3 class="fw-bold">Contact Us</h3>
+            <p class="fw-bold m-0">Lorem ipsum dolor sit amet</p>
+            <p class="fw-bold m-0">Lorem ipsum dolor sit amet</p>
+            <p class="fw-bold m-0">Lorem ipsum dolor sit amet</p>
+        </div>
+    </div>
+
+    <div class="text-center my-0">
+        <div class="mx-auto mt-4 w-100 bg-white border" style="height: 1px; opacity:0.8;"></div>
+        <p class="mt-3">Lorem ipsum dolor sit amet</p>
+    </div>
+</footer>
+
+</body>
+</html>

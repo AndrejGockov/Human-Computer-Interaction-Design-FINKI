@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sweets Shop</title>
+
+    <link rel="stylesheet" href="../bootstrap-5.3.5-dist/css/bootstrap.css">
+    <script src="../bootstrap-5.3.5-dist/js/bootstrap.js"></script>
+
+    <style>
+        body{
+            background-color: peachpuff;
+        }
+        #banner {
+            background-image:
+                    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+                    url('images/banner.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 800px;
+        }
+    </style>
+</head>
+<body>
+<!--Banner-->
+<div id="banner" class="d-flex flex-column justify-content-center">
+    <div class="container text-white text-center">
+        <h1 class="mb-4 fs-1 fw-bold">Welcome to Sweet Moments</h1>
+        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, amet excepturi mollitia natus provident quas quod voluptas voluptates! <br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+        <button class="btn bg-warning text-white fs-4 fw-bold mt-2 p-2 px-4" type="button" >Learn more</button>
+    </div>
+</div>
+
+<!--Card-->
+<div class="container py-5">
+    <h1 class="mb-5 fw-bold text-center">Featured Products</h1>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card border-0" style="background-color: papayawhip;">
+                <img class="card-img-top" src="images/card.jpg" alt="Card image cap">
+                <div class="card-body p-3">
+                    <h3 class="card-title fw-bold">Chocolate Cake</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet possimus quod suscipit. Amet aperiam beatae cumque dolorem</p>
+                    <h3 class="card-title fw-bold">$4.99</h3>
+                    <button class="btn m-2 px-4 bg-warning">Order Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-0" style="background-color: papayawhip;">
+                <img class="card-img-top" src="images/card.jpg" alt="Card image cap">
+                <div class="card-body p-3">
+                    <h3 class="card-title fw-bold">Chocolate Cake</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet possimus quod suscipit. Amet aperiam beatae cumque dolorem</p>
+                    <h3 class="card-title fw-bold">$4.99</h3>
+                    <button class="btn m-2 px-4 bg-warning">Order Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-0" style="background-color: papayawhip;">
+                <img class="card-img-top" src="images/card.jpg" alt="Card image cap">
+                <div class="card-body p-3">
+                    <h3 class="card-title fw-bold">Chocolate Cake</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet possimus quod suscipit. Amet aperiam beatae cumque dolorem</p>
+                    <h3 class="card-title fw-bold">$4.99</h3>
+                    <button class="btn m-2 px-4 bg-warning">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--About Us-->
+<div style="background-color: papayawhip;">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-6">
+                <img class="img-fluid w-100 h-100 rounded" src="images/banner.jpg"/>
+            </div>
+
+            <div class="col-6">
+                <h1 class="mb-4 fw-bold">About Us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto debitis distinctio doloribus enim eveniet in laudantium libero, maiores, molestias, nemo non nostrum obcaecati praesentium quidem quod sed sit sunt!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto debitis distinctio doloribus enim eveniet in laudantium libero, maiores, molestias, nemo non nostrum obcaecati praesentium quidem quod sed sit sunt!</p>
+                <button class="btn mt-3 fs-5 fw-bold bg-warning">Order Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Form-->
+<div class="container py-5">
+    <h1 class="mb-5 fw-bold text-center">Make a Reservation</h1>
+
+    <div class="row mb-4">
+        <div class="col-6">
+            <label class="fs-5 fw-bold mb-2" for="name">Full Name</label>
+            <input class="form-control" id="name" type="text" placeholder="Enter your name">
+        </div>
+        <div class="col-6">
+            <label class="fs-5 fw-bold mb-2" for="email">Email:</label>
+            <input class="form-control" id="email" type="text" placeholder="Email address">
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-4">
+            <label class="fs-5 fw-bold mb-2" for="date">Date:</label>
+            <input class="form-control" id="date" type="date" placeholder="Enter your name">
+        </div>
+        <div class="col-4">
+            <label class="fs-5 fw-bold mb-2" for="time">Time:</label>
+            <select class="form-select" id="time">
+                <option value="">12:30</option>
+            </select>
+        </div>
+
+        <div class="col-4">
+            <label class="fs-5 fw-bold mb-2" for="quantity">Number of Guests:</label>
+            <select class="form-select" id="quantity">
+                <option value="">5</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label class="fs-5 fw-bold mb-2" for="message">Message:</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Your message. . ."></textarea>
+    </div>
+
+    <button class="btn m-3 px-4 fs-5 fw-bold bg-warning">Book Now</button>
+</div>
+
+<!--Footer-->
+<div class="py-3" style="background-color: papayawhip;"></div>
+</body>
+</html>
